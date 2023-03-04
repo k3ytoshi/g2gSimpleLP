@@ -1,0 +1,54 @@
+@import "utils";
+
+/*
+ * Colors
+ * ======================================================================== */
+
+
+// background colors
+
+.bg-steal-dark {
+  background: $gray-light;
+}
+
+// text colors
+
+.color-white {
+  color: $white;
+}
+
+.color-white-50 {
+  color: $white-50;
+}
+
+.color-light {
+  color: $light;
+}
+
+.color-grey {
+  color: $grey;
+}
+
+.color-black-50 {
+  color: $black-50;
+}
+
+.color-dark {
+  color: $dark;
+}
+
+.color-steal-dark {
+  color: $dark-steal;
+}
+
+.color-steal-light {
+  color: $light-steal;
+}
+
+//
+
+@include sm {
+  .sm-svg-green path {
+    stroke: $light-blue2;
+  }
+}

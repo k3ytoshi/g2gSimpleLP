@@ -1,0 +1,63 @@
+@import "../../scss/utils";
+
+.Card {
+  border-radius: 16px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.Card-start {
+  margin-left: 0;
+}
+
+.Card-end {
+  margin-right: 0;
+}
+
+.Card-title {
+  padding-bottom: 40px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 42px;
+  color: #FFFFFF;
+  z-index: 1;
+}
+
+.Card-title--big {
+  font-size: 36px;
+  line-height: 47px;
+  font-weight: 600;
+}
+
+.Card-info {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  z-index: 1;
+
+  @include sm {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+.Card-dark {
+  background: $black;
+}
+
+.Card-info--grey {
+  color: $grey;
+}
+
+.Card-info--white {
+  color: $white;
+}
+
+.Card-info--dark {
+  color: $dark;
+}

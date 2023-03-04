@@ -1,0 +1,14 @@
+@import "~normalize.css";
+@import "./scss/utils";
+@import "./scss/colors";
+@import "./scss/helpers";
+
+body {
+  font-family: $font-family-base;
+  font-size: 62.6%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+  background: $light;
+}

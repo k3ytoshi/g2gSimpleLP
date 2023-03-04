@@ -1,0 +1,99 @@
+@import "../../scss/utils";
+
+.Header {
+  position: absolute;
+  height: 110px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  color: $darkest;
+  z-index: 1;
+  background: #ffffff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .Logo-icon {
+    display: none;
+  }
+
+  @include sm {
+    .Logo {
+      display: block;
+    }
+
+    .Logo-icon {
+      display: block;
+    }
+  }
+
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+
+  .nav-item {
+    height: 32px;
+    padding: 0 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: $darkest;
+
+    &:hover {
+      color: $light-blue2;
+    }
+  }
+
+  @include sm {
+    display: none;
+  }
+}
+
+.Menu-wrap {
+  z-index: 2;
+  display: none;
+  cursor: pointer;
+
+  @include sm {
+    display: block;
+  }
+}
+
+.Menu-close {
+  display: none;
+}
+
+.navbar-dropdown {
+  display: none;
+  position: absolute;
+  background: $gray-light;
+  width: 100%;
+  height: 100vh;
+  padding-top: 100px;
+  top: 0;
+  z-index: 1;
+
+  .nav {
+    display: block;
+    text-align: center;
+  }
+
+  .nav-item {
+    padding: 20px 0;
+    display: block;
+  }
+
+  .nav-item-btn {
+    box-sizing: unset;
+    padding: 20px 0;
+    margin: 0;
+    border: none;
+  }
+}

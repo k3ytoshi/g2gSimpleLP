@@ -1,0 +1,23 @@
+@import "utils";
+
+.pl-18 {
+  padding-left: 18px;
+}
+
+.pl-15 {
+  padding-left: 15px !important;
+}
+
+.line-h-normal {
+  line-height: normal !important;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.sm-hidden {
+  @include sm {
+    display: none !important;
+  }
+}

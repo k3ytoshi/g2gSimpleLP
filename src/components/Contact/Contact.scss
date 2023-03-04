@@ -1,0 +1,69 @@
+@import "../../scss/utils";
+
+.Contact {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: #ffffff;
+  justify-content: space-between;
+}
+
+.Contacts-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+}
+
+.Contacts {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr;
+
+  @include md {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include lg {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.Contact-item {
+}
+
+.Contact-item-head {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.Contact-item-title {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
+  padding-left: 20px;
+  color: $darkest;
+
+  @include md {
+    font-size: 18px;
+    line-height: 23px;
+  }
+}
+
+.Contact-item-info {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  padding-top: 24px;
+  color: $grey;
+
+  @include sm {
+    font-size: 16px;
+    line-height: 21px;
+    padding-top: 20px;
+  }
+}
+
+

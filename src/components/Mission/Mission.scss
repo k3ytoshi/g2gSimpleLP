@@ -1,0 +1,61 @@
+@import "../../scss/utils";
+
+.Mission-wrap {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Mission-bg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.Mission-bg-gradient {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, #0F1014 0%, rgba(15, 16, 20, 0) 100%);
+
+  @include sm {
+    background: linear-gradient(90deg, #0F1014 0%, rgba(15, 16, 20, 0) 200%);
+  }
+}
+
+.Mission {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.Mission-info {
+  width: 100%;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
+  color: $light;
+
+  @include md {
+    font-size: 20px;
+    line-height: 26px;
+    width: 50%;
+  }
+}
+
+.Mission-title {
+  font-size: 64px;
+  line-height: 70px;
+  color: $light-blue2;
+  width: 80%;
+
+  @include sm {
+    font-size: 38px;
+    line-height: 49px;
+    width: 100%;
+  }
+}
+
