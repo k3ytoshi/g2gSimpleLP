@@ -9,6 +9,7 @@ import Edge from '../Edge/Edge'
 
 import Mail from './mail.svg'
 import Newsletter from './newsletter.svg'
+import Discord from './download__14_-removebg-preview.svg'
 
 import './Contact.scss'
 import '../../public/images/home/paths-grey.svg'
@@ -50,6 +51,15 @@ function Contact() {
             </a>
             <div className="Contact-item-info">
               For general inquiries please email our founding team.
+            </div>
+          </div>
+          <div className="Contact-item">
+            <a className="Contact-item-head" href="https://discord.gg/8EUD9Cfm" target="_blank" rel="noopener noreferrer">
+              <img src={Discord} alt="" />
+              <div className="Contact-item-title">Discord Server</div>
+            </a>
+            <div className="Contact-item-info">
+              Join the Gym2Gym Discord community.
             </div>
           </div>
         </div>

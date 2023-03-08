@@ -1,5 +1,4 @@
 import React from 'react'
-import '../../public/images/home/paths-grey.svg'
 import Container from '../Container/Container'
 import Icon from '../Icon/Icon'
 import Edge from '../Edge/Edge'
@@ -27,9 +26,9 @@ function Academy() {
           text="Work out privately"
           info={
             <>
-              Users have the ability to work out as much or little as they want through singular uses and memberships
+            Users have the ability to work out as much or little as they want through singular uses and memberships
               <br /><br />
-             G2G indexes independently owned fitness spaces and in-homes spaces to allow users to flexibility in choice and location.
+             G2G indexes independently owned fitness spaces and in-homes spaces to allow users the flexibility in choice and location.
             </>
           }
           cover="user"

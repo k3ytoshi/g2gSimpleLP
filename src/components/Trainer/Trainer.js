@@ -6,7 +6,7 @@ import Edge from '../Edge/Edge'
 import Banner from '../Banner/Banner'
 import events from '../../core/EventEmitter'
 
-import './Trainer.scss'
+import './Mission.scss'
 import '../../public/images/home/paths-grey.svg'
 
 
@@ -29,7 +29,7 @@ function Trainer() {
           text="Streamlined Training"
           info={
             <>
-              Personal Trainers no longer have to search for space to work.
+              Personal Trainers no longer have to search for space to work or train with their clients.
               <br /><br />
               They can book spaces based on the time, type of space and frequency. 
             </>
