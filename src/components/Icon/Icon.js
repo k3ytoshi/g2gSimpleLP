@@ -5,7 +5,7 @@ import './Icon.scss'
 class Icon extends Component {
   static defaultProps = {
     size: 24,
-    fill: '#9e9e9e',
+    fill: '#46AAD6',
     viewBox: '0 0 24 24',
     stroke: '#fff',
   }

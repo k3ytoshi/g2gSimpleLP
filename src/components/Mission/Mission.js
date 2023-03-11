@@ -25,7 +25,7 @@ function Mission() {
 
       <Container className="Container-flex" clipped={false}>
         <Banner
-          text="What We've Built"
+          text="What we've built"
           info={
             <>
               A platform and marketplace that enables people to have private fitness experiences. 

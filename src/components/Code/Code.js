@@ -24,10 +24,10 @@ function Code() {
       
       <Container className="Container-flex" clipped={false}>
       <Banner
-          text="Monetize Your Space"
+          text="Monetize your space"
           info={
             <>
-             Gym or health space owners earn more by renting out to new customers and providing memberships
+             Gym or health space owners earn more by renting out to new customers and providing memberships.
               <br /><br />
              Home or property owners can turn their gym and health spaces into their own personal small businesses.
 

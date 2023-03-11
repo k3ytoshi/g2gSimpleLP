@@ -26,9 +26,9 @@ function Academy() {
           text="Work out privately"
           info={
             <>
-            Users have the ability to work out as much or little as they want through singular uses and memberships
+            Users have the ability to work out as much or little as they want through singular uses and memberships.
               <br /><br />
-             G2G indexes independently owned fitness spaces and in-homes spaces to allow users the flexibility in choice and location.
+            Gym2Gym indexes independently owned fitness spaces and in-homes spaces to allow users the flexibility in choice and location.
             </>
           }
           cover="user"

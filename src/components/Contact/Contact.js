@@ -21,14 +21,8 @@ function Contact() {
       <div className="Screen-right-half paths-grey" />
       <Container className="" clipped={true}>
         <Banner
-          text="Contact Us"
-          info={
-            <>
-              Email: info@gym2gym.com  
-              <br /><br /> Phone Number: 424-280-2653
-              <br /><br /> 
-            </>
-          }
+          text="Contact us"
+
           cover="contact"
           textDark />
       </Container>
@@ -38,7 +32,7 @@ function Contact() {
         <div className="Contact-item">
             <a className="Contact-item-head" href="https://forms.gle/QdFCbboALg6q5HJS7" target="_blank" rel="noopener noreferrer">
               <img src={Newsletter} alt="" />
-              <div className="Contact-item-title">Onboarding Form</div>
+              <div className="Contact-item-title">Sign up</div>
             </a>
             <div className="Contact-item-info">
               Register for early access to the beta program.
@@ -47,7 +41,7 @@ function Contact() {
           <div className="Contact-item">
             <a className="Contact-item-head" href="mailto:info@gym2gym.com">
               <img src={Mail} alt="" />
-              <div className="Contact-item-title">info@gym2gym.com</div>
+              <div className="Contact-item-title">Email us</div>
             </a>
             <div className="Contact-item-info">
               For general inquiries please email our founding team.

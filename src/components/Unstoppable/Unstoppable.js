@@ -1,5 +1,4 @@
 import React from 'react'
-import '../../public/images/home/paths-grey.svg'
 import Container from '../Container/Container'
 import Icon from '../Icon/Icon'
 import Edge from '../Edge/Edge'
@@ -25,12 +24,12 @@ function Unstoppable() {
 
       <Container className="Container-flex" clipped={false}>
         <Banner
-          text="Product Overview"
+          text="Product overview"
           info={
             <>
-              App and desktop platform launching in Q2 2023
+              App and desktop platform launching in Q2 2023.
               <br /><br />
-              Contact us and sign up through the onboarding form below to gain early access and receive updates. 
+              Sign up through the onboarding form below to gain early access and receive updates. 
             </>
           }
           cover="product"
