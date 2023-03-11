@@ -44,7 +44,7 @@ function Trainer() {
             <div className="Edge-content-start">
             </div>
             <div className="Edge-content-end">
-              <div className="Edge-pagination color-grey">05 / 06</div>
+              <div className="Edge-pagination color-grey">05 / 07</div>
               <div className="Edge-pagination-icon sm-svg-green" onClick={() => events.navigate(6)}>
                 <Icon name="arrow-down" viewBox="0 0 36 36" fill="none" size="36" stroke="#46AAD6" />
               </div>
