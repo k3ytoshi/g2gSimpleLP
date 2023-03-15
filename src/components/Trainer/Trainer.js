@@ -26,7 +26,7 @@ function Trainer() {
 
         <Container className="Container-flex" clipped={false}>
         <Banner
-          text="Streamlined training"
+          text="Train to earn"
           info={
             <>
               Personal Trainers no longer have to search for space to work or train with their clients.

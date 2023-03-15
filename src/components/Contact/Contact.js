@@ -30,7 +30,7 @@ function Contact() {
       <Container className="Contacts-section">
         <div className="Contacts">
         <div className="Contact-item">
-            <a className="Contact-item-head" href="https://forms.gle/QdFCbboALg6q5HJS7" target="_blank" rel="noopener noreferrer">
+            <a className="Contact-item-head" href="https://docs.google.com/forms/d/e/1FAIpQLScNHnOE_VFgqOU2mNZrLeER4ZniEoP8rdVJkI0uMchI0nNzBg/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer">
               <img src={Newsletter} alt="" />
               <div className="Contact-item-title">Sign up</div>
             </a>
@@ -48,12 +48,12 @@ function Contact() {
             </div>
           </div>
           <div className="Contact-item">
-            <a className="Contact-item-head" href="https://discord.gg/8EUD9Cfm" target="_blank" rel="noopener noreferrer">
+            <a className="Contact-item-head" href="https://discord.gg/ueuKB4jDuG" target="_blank" rel="noopener noreferrer">
               <img src={Discord} alt="" />
               <div className="Contact-item-title">Discord Server</div>
             </a>
             <div className="Contact-item-info">
-              Join the Gym2Gym Discord community.
+              Join the Discord community.
             </div>
           </div>
         </div>
